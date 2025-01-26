@@ -1,0 +1,1 @@
+This is a file organiser app with a basic tkinter gui, search for the path u want to organise and it will do it, it will organise every file present in the selected folder in sub folders based on the extension
