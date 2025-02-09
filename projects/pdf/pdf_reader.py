@@ -87,6 +87,7 @@ class PdfReaderClass:
         return Counter(all_words), len(all_words), num_of_chars
 
     def main(self):
+        self.window.destroy()
         """Process the PDF file and count words."""
         if not self.pdf_file_path_str:
             print("No PDF file selected!")
